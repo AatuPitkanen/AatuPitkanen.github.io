@@ -63,8 +63,8 @@
 
 <section class = "video">
 <div  class= "row">
-<h2>Projects</h2> 
-<iframe class="youtube col-md-6 col-sm-6 col-xs-6" src="res/emi.mp4"  allowfullscreen></iframe>
+<h1>Projects</h1> 
+<iframe class="youtube col-md-6 col-sm-6 col-xs-6" src="https://www.youtube.com/embed/SYt2tClKSfY"  allowfullscreen></iframe>
 <iframe class="youtube col-md-6 col-sm-6 col-xs-6" src="https://www.youtube.com/embed/c7A9oHY9r-Y" allowfullscreen></iframe>
 </div>
 <a href="http://n4sjamk.github.io/contriboard/"><span class="glyphicon glyphicon-play" aria-hidden="true"></span> Try it!</a>
@@ -77,15 +77,15 @@
 </div>
 </section>
 <section class="message">
-<form class="form-horizontal">
+<form class="form-horizontal" action="http://formspree.io/aatu.pitkanen@gmail.com">
  <div class="row">
     <div class="form-group">
       <div class="col-xs-2 col-sm-4 col-md-4">
         <h3>Message</h3>
         <label  class=" control-label">Email</label>
-        <input type="text" class="form-control"  id="email" placeholder="Email">
+        <input type="text" class="form-control" name="_replyto" id="email" placeholder="Email">
         <label  class=" control-label">Subject</label>
-        <input type="text"  class="form-control" id="subject" placeholder="Subject">
+        <input type="text"  class="form-control" name="_subject" id="subject" placeholder="Subject">
       </div>
     </div>
   </div>
@@ -93,13 +93,13 @@
     <div class="form-group">
       <div class="col-xs-2 col-sm-4 col-md-4">
         <label class=" control-label">Message</label>
-        <textarea class="form-control"  rows="3" id="message"></textarea>
+        <textarea class="form-control"  rows="3" name="body" id="message"></textarea>
       </div>
     </div>
     </div>
     <div class="form-group">
       <div class="">
-        <button type="submit" name="action" id="send-msg" class="btn btn-primary">Send</button>
+        <button type="submit"  name="action" id="send-msg" class="btn btn-primary">Send</button>
       </div>
     </div>
   </form>
