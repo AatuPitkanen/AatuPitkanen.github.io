@@ -1,0 +1,7 @@
+{ "records":[ {"Pvm":"3.11.2015","Aihe":"Suunnitelu, html kikkailu","Tunnit":" 3h"},
+{"Pvm":"4.11.2015","Aihe":"Harjoitustyön aloitus","Tunnit":"5h"},  
+{"Pvm":"10.11.2015","Aihe":"Email palvelimen teko, Jquery ajax post call","Tunnit":"6h"}, 
+{"Pvm":"11.11.2015","Aihe":"css tyylit, Pääsivun scaalautuvuus bootsrapin avulla","Tunnit":"4h"},  
+{"Pvm":"14.11.2015","Aihe":"Canvaksen teko, css tyylit, favicon, Json tuntikirjan pidon laittaminen taulukkoon","Tunnit":"8h"}, 
+{"Pvm":"15.11.2015","Aihe":"Dokumentaatio, viimeistely, lorem ipsum","Tunnit":"8h"} 
+]}
